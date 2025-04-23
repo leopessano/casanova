@@ -1,0 +1,349 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
+/*  ========== VARIAVEIS ============= */
+:root{
+    --azul: rgb(208, 215, 255);
+    --azuldark: #2B333C;
+    --fontepadrao: 'Courgette', arial, sans-serif;
+}
+
+/*  ========== GERAL ============= */
+* {
+    margin: 0;
+    padding: 0;
+    color: var(--azuldark);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: var(--azul);
+}
+
+/* ============== CABECALHO ============== */
+header {
+    background-color: var(--azuldark);
+    border-bottom: 1px solid var(--azuldark);
+    box-shadow: 1px 0px 10px rgba(0, 0, 0, 0.521);    
+}
+
+header > h1 {
+    font-family: Courgette;
+    color: rgb(208, 215, 255);
+    font-size: 1.8em;
+    text-shadow: 1px 0px 1px rgba(0, 0, 0, 0.493);
+    text-align: center;            
+    padding-top: 2%;
+    min-width: 200px;
+    max-width: 900px;
+}
+
+header > p {
+    font-family: Courgette;
+    color: white;
+    font-size: 0.7em;
+    text-shadow: 1px 0px 1px rgba(0, 0, 0, 0.493);
+    text-align: center; 
+    padding-bottom: 1%;   
+    min-width: 200px;
+    max-width: 900px;
+}
+
+/* ============== MENU ============== */
+
+#icone-menu {
+    display: block;
+    color: var(--azul);
+    text-align: center;
+    padding: 10px;
+    
+}
+
+#icone-menu:hover {
+    background-color: var(--azul);
+    color: var(--azuldark);
+    cursor: pointer;
+}
+
+nav {    
+    display: block;
+    text-align: right;
+    padding: 5px;
+    margin-right: 1%;    
+}
+
+nav > a {
+    color: var(--azul);
+    font-size: 1.1em;
+    font-weight: bold;
+    text-decoration: none;
+    text-shadow: 1px 0px 1px rgba(0, 0, 0, 0.493);
+    margin-right: 5px;
+    padding: 3px;    
+}
+
+nav > a:hover {
+    color: white;
+    transition: .5s;    
+}
+
+/* ============== RODAPÉ ============== */
+footer {
+    background-color: var(--azuldark);
+    border-top: 1px solid var(--azuldark);
+    box-shadow: 1px 0px 10px rgba(0, 0, 0, 0.521);
+    position: fixed;
+    bottom: 0%;
+    width: 100vw;
+    min-width: 320px;
+}
+
+footer > p {
+    color: white;
+    text-shadow: 1px 0px 1px rgba(0, 0, 0, 0.493);
+    text-align: center;
+    font-size: 0.6em;
+    padding: 10px;
+}
+
+/* ============== MAIN ============== 
+.fundo {
+    display: block;
+    margin: auto;
+    width: 100vw;
+    max-width: 800px;
+    height: 200px;
+    background-image: url('img/fundo.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;    
+}
+*/
+
+main > a {
+    display: block;    
+    color: white;    
+    text-decoration: none;
+    text-align: right;
+    max-width: 30px;
+    margin-left: 90vw;    
+}
+section {
+    max-width: 800px;
+    margin: auto;    
+    background-color: white;
+    margin-top: 25px;
+    margin-bottom: 50px;
+    border: 1px solid black;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 1px 0px 1px rgba(0, 0, 0, 0.493);    
+}
+
+section > h2 {
+    color: var(--azuldark);
+    font-size: 1.3em;    
+    text-align: center;
+    text-decoration: overline;
+    text-shadow: 1px 0px 1px rgba(0, 0, 0, 0.493);
+    margin-top: 10px;
+    margin-bottom: 10px;    
+    padding-top: 10px;       
+}
+
+section > p {
+    text-align: justify;
+    padding: 20px;
+}
+
+/* ==============  MAIN - IMAGENS DESTAQUE ============== */
+#home_imagens {
+    text-align: center;
+    max-width: 800px;
+    min-width: 320px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    padding-bottom: 20px;
+}
+
+#home_imagens > picture > img {        
+    width: 150px;
+    height: 150px;
+    padding: 1px;
+    border: 1.5px solid var(--azuldark);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.493);    
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+}
+
+.verdoces {
+    display: inline-block;    
+    background-color: var(--azuldark);
+    color: var(--azul);
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 8px;
+    border-radius: 10px;
+    margin-bottom: 10px;    
+}
+
+.verdoces:hover {
+    color: white;
+    text-decoration: underline;
+    transition: .5s;
+}
+
+/* ============== MAIN - CONTATO ============== */
+#home_contato {
+    margin-bottom: 50px;
+    padding-bottom: 20px;
+}
+
+#home_contato > ul {    
+    margin-left: 5%;
+    text-align: center;
+    list-style: none;    
+}
+
+#igicon {
+    max-width: 25px;
+}
+
+#wpicon {
+    max-width: 20px;
+}
+
+.link-contato {    
+    text-decoration: none;
+    color: var(--azuldark);    
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.link-contato:hover {
+    color: white;    
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border-radius: 5px;
+    text-decoration-line: underline;  
+    transition: .5s;
+}
+
+#endereco {    
+    margin-top: 20px;
+    text-align: center;    
+}
+
+#endereco > iframe {
+    margin-top: 15px; 
+    box-shadow: 1px 0px 10px rgba(0, 0, 0, 0.384);  
+}
+
+/* =============== PÁGINA DE DOCES =================*/
+
+#pagina-doces {
+    text-align: center;
+}
+
+#pagina-doces > h1 {
+    font-family: var(--fontepadrao);
+    color: var(--azuldark);
+    font-size: 1.9em;
+    text-indent: 20px;    
+    text-align: left;
+    padding: 5px;
+    background-color: #00f3352d;    
+    border: 1px solid var(--azul);
+    border-radius: 3px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 2px;
+}
+
+#pagina-doces > h2 {
+    font-size: 1.6em;    
+    margin: auto;
+}
+
+.doces {
+    display: inline-block;    
+    text-align: center;    
+    margin-top: 20px;    
+}
+
+.doces > img {    
+    width: 120px;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 1px 0px 5px rgba(0, 0, 0, 0.349);
+}
+
+.doces > p {    
+    width: 150px;    
+    margin: auto;
+    margin-bottom: 30px;
+    color: var(--azuldark);
+    font-size: 0.7em;
+    font-weight: bold;        
+    background-color: var(--azul);
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 1px 0px 5px rgba(0, 0, 0, 0.308);
+}
+
+/* =============== PÁGINA DE GELATOS =================*/
+
+#pagina-gelatos {
+    text-align: center;
+}
+
+#pagina-gelatos > h1 {
+    font-family: var(--fontepadrao);
+    font-size: 1.9em;
+    color: var(--azuldark);
+    text-indent: 20px;    
+    text-align: left;
+    padding: 5px;        
+    background-color: #f3b6006e;    
+    border: 1px solid var(--azul);
+    border-radius: 3px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 2px;
+}
+
+#pagina-gelatos > h2 {
+    font-size: 1.6em;    
+}
+
+.gelatos {
+    display: inline-block;    
+    text-align: center;    
+    margin-top: 20px;    
+}
+
+.gelatos > img {    
+    width: 120px;
+    height: 120px;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 1px 0px 5px rgba(0, 0, 0, 0.349);
+}
+
+.gelatos > p {    
+    width: 150px;    
+    margin: auto;
+    margin-bottom: 30px;
+    font-size: 0.7em;
+    font-weight: bold;
+    color: var(--azuldark); 
+    background-color: var(--azul);
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 1px 0px 5px rgba(0, 0, 0, 0.308);
+}
