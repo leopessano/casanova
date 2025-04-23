@@ -74,7 +74,7 @@ nav {
 
 nav > a {
     color: var(--azul);
-    font-size: 1.1em;
+    font-size: 1em;
     font-weight: bold;
     text-decoration: none;
     text-shadow: 1px 0px 1px rgba(0, 0, 0, 0.493);
@@ -179,7 +179,7 @@ section > p {
     margin-right: 10px;
 }
 
-.verdoces {
+.veritens {
     display: inline-block;    
     background-color: var(--azuldark);
     color: var(--azul);
@@ -192,7 +192,7 @@ section > p {
     margin-bottom: 10px;    
 }
 
-.verdoces:hover {
+.veritens:hover {
     color: white;
     text-decoration: underline;
     transition: .5s;
@@ -346,4 +346,13 @@ section > p {
     padding: 5px;
     border-radius: 5px;
     box-shadow: 1px 0px 5px rgba(0, 0, 0, 0.308);
+}
+
+.linksugest {
+    text-decoration: none;
+    font-size: 0.9em;
+}
+
+.linksugest > img {
+    text-align: right;
 }
