@@ -244,13 +244,13 @@ section > p {
     box-shadow: 1px 0px 10px rgba(0, 0, 0, 0.384);  
 }
 
-/* =============== PÁGINA DE DOCES =================*/
+/* =============== PÁGINA DA COZINHA =================*/
 
-#pagina-doces {
+#pagina-cozinha {
     text-align: center;
 }
 
-#pagina-doces > h1 {
+#pagina-cozinha > h1 {
     font-family: var(--fontepadrao);
     color: var(--azuldark);
     font-size: 1.9em;
@@ -265,28 +265,28 @@ section > p {
     margin-left: 2px;
 }
 
-#pagina-doces > h2 {
+#pagina-cozinha > h2 {
     font-size: 1.6em;    
     margin: auto;
 }
 
-.doces {
+.cozinha {
     display: inline-block;    
     text-align: center;    
     margin-top: 20px;    
 }
 
-.doces > img {    
+.cozinha > img {    
     width: 120px;
     border: 1px solid black;
     border-radius: 10px;
     box-shadow: 1px 0px 5px rgba(0, 0, 0, 0.349);
 }
 
-.doces > p {    
+.cozinha > p {    
     width: 150px;    
     margin: auto;
-    margin-bottom: 30px;
+    margin-bottom: 5px;
     color: var(--azuldark);
     font-size: 0.7em;
     font-weight: bold;        
@@ -349,8 +349,9 @@ section > p {
 }
 
 .linksugest {
+    
     text-decoration: none;
-    font-size: 0.9em;   
+    font-size: 0.9em;  
 }
 
 .linksugest > img {
